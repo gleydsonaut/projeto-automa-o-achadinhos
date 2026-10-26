@@ -1,0 +1,7 @@
+[hidden]{display:none!important}
+.auth-card .google-signin{display:flex;width:100%;border:1px solid #dcdce1;background:#fff;color:var(--ink);text-decoration:none;min-height:46px}
+.auth-card .google-signin:hover{background:#f7f7f8;border-color:#b9b9c3}
+.auth-divider{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:11px;margin:22px 0}
+.auth-divider:before,.auth-divider:after{content:'';height:1px;background:var(--border);flex:1}
+.auth-card .auth-error{margin:0;padding:11px 13px;background:#fff0ed;border:1px solid #edc9c4;border-radius:6px;color:#912b25;font-size:11px;line-height:1.7}
+.auth-card button:disabled{opacity:.65;cursor:wait}
